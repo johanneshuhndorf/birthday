@@ -1,8 +1,12 @@
+/* This bit here is something new and useful ... advanced stuff but I immediately needed it. :D */
+
 :root {
   --accent: #c90000;
   --background: #cccccc;
   --background-light: white;
 }
+
+/* See if you can guess. :) */
 
 body {
   background-color: var(--background);
@@ -12,7 +16,7 @@ body {
   font-size: 2em;
 
   /* background-image: url("present.svg"); */
-  background-position: right 10% bottom 10%;
+  background-position: right 2em bottom 2em;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 35%;
